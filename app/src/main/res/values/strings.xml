@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">T_MVPDemo</string>
+    <string name="key_apistore">c8d264c651c1a3a9359e118e221c4b49</string>
+
+    <string name="loading">加载更多</string>
+    <string name="xlistview_footer_hint_normal">加载等多</string>
+</resources>

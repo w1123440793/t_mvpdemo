@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <demo.cn.t_mvpdemo.ui.view.ProgressBarCircular
+        android:id="@+id/progress"
+        android:layout_above="@+id/center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp" />
+
+    <View
+        android:background="@android:color/transparent"
+        android:id="@+id/center"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <TextView
+        android:id="@+id/load_txt"
+        android:textSize="16dp"
+        android:text="数据加载中..."
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
